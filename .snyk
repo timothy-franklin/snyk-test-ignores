@@ -9,13 +9,6 @@ version: v1.25.0
 # Ignore specific vulnerabilities by Snyk ID
 # NOTE: Use SNYK-PYTHON-* format, not CVE-* format
 ignore:
-  SNYK-PYTHON-JINJA2-6809379:
-    - '*':
-        reason: Example ignore - False positive
-        expires: 2025-12-31T00:00:00.000Z
-    - jinja2@2.11.3:
-        reason: Example ignore - False positive
-        expires: 2025-12-31T00:00:00.000Z
   SNYK-PYTHON-URLLIB3-14192442:
     - '*':
         reason: Example ignore - Cannot upgrade yet
@@ -24,13 +17,6 @@ ignore:
         reason: Example ignore - Cannot upgrade yet
         expires: 2025-12-31T00:00:00.000Z
   SNYK-PYTHON-URLLIB3-14192443:
-    - '*':
-        reason: Example ignore - Cannot upgrade yet
-        expires: 2025-12-31T00:00:00.000Z
-    - urllib3@1.26.5:
-        reason: Example ignore - Cannot upgrade yet
-        expires: 2025-12-31T00:00:00.000Z
-  SNYK-PYTHON-URLLIB3-5926907:
     - '*':
         reason: Example ignore - Cannot upgrade yet
         expires: 2025-12-31T00:00:00.000Z
