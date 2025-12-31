@@ -1,59 +1,15 @@
-# Snyk (https://snyk.io) policy file
-# This file demonstrates how to ignore specific vulnerabilities
-
-version: v1.25.0
-
-# Example ignore configurations (commented out initially)
-# Uncomment and modify these to test ignore functionality
-
-# Ignore specific vulnerabilities by Snyk ID
-# NOTE: Use SNYK-PYTHON-* format, not CVE-* format
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   SNYK-PYTHON-URLLIB3-14192442:
     - '*':
-        reason: Example ignore - Cannot upgrade yet
+        reason: Testing ignore functionality
         expires: 2025-12-31T00:00:00.000Z
+        created: 2025-12-31T04:04:06.297Z
   SNYK-PYTHON-URLLIB3-14192443:
     - '*':
-        reason: Example ignore - Cannot upgrade yet
+        reason: Testing ignore functionality
         expires: 2025-12-31T00:00:00.000Z
-
-#   SNYK-PYTHON-FLASK-1234567:
-#     - '*':
-#         reason: Example ignore - False positive
-#         expires: 2025-12-31T00:00:00.000Z
-#
-#   SNYK-PYTHON-PYYAML-7654321:
-#     - '*':
-#         reason: Cannot upgrade due to compatibility
-#         expires: 2026-01-31T00:00:00.000Z
-
-# Ignore all vulnerabilities in a specific package
-#   SNYK-PYTHON-DJANGO-*:
-#     - 'django@3.1.0':
-#         reason: Legacy system requirement
-#         expires: 2025-12-31T00:00:00.000Z
-
-# Ignore code vulnerabilities (SAST findings)
-# exclude:
-#   code:
-#     - src/vulnerable_app.py
-#     - src/crypto_issues.py
-
-# Ignore specific code issues by CWE or rule ID
-# ignore:
-#   'python/hardcoded-credentials':
-#     - '*':
-#         reason: Test credentials only
-#         expires: 2025-12-31T00:00:00.000Z
-#
-#   'python/sql-injection':
-#     - 'src/vulnerable_app.py > get_user_by_id':
-#         reason: Protected by WAF
-#         expires: 2025-12-31T00:00:00.000Z
-
-# Global exclusions
-# exclude:
-#   global:
-#     - tests/**
-#     - '**/*.test.py'
+        created: 2025-12-31T04:04:31.540Z
+patch: {}
