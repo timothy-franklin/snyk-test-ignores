@@ -23,6 +23,20 @@ ignore:
     - urllib3@1.26.5:
         reason: Example ignore - Cannot upgrade yet
         expires: 2025-12-31T00:00:00.000Z
+  SNYK-PYTHON-URLLIB3-14192443:
+    - '*':
+        reason: Example ignore - Cannot upgrade yet
+        expires: 2025-12-31T00:00:00.000Z
+    - urllib3@1.26.5:
+        reason: Example ignore - Cannot upgrade yet
+        expires: 2025-12-31T00:00:00.000Z
+  SNYK-PYTHON-URLLIB3-5926907:
+    - '*':
+        reason: Example ignore - Cannot upgrade yet
+        expires: 2025-12-31T00:00:00.000Z
+    - urllib3@1.26.5:
+        reason: Example ignore - Cannot upgrade yet
+        expires: 2025-12-31T00:00:00.000Z
 
 #   SNYK-PYTHON-FLASK-1234567:
 #     - '*':
