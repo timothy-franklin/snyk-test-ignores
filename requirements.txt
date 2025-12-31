@@ -1,0 +1,10 @@
+# Intentionally vulnerable dependencies for Snyk SCA testing
+# Using packages that are easier to install but still have known vulnerabilities
+
+flask==2.0.1
+requests==2.25.1
+django==3.1.13
+pyyaml==5.4
+jinja2==2.11.3
+werkzeug==2.0.0
+urllib3==1.26.5
