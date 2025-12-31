@@ -7,7 +7,12 @@ version: v1.25.0
 # Uncomment and modify these to test ignore functionality
 
 # Ignore specific vulnerabilities by Snyk ID
-# ignore:
+ignore:
+  CVE-2021-45115:
+    - '*':
+      reason: Example ignore - False positive
+      expires: 2025-12-31T00:00:00.000Z
+
 #   SNYK-PYTHON-FLASK-1234567:
 #     - '*':
 #         reason: Example ignore - False positive
